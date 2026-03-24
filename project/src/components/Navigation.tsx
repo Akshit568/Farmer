@@ -16,11 +16,7 @@ export const Navigation = () => {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'Team', href: '#team' },
-    { name: 'Features', href: '#features' },
-    { name: 'Technology', href: '#technology' },
     { name: 'Demo', href: '#demo' },
-    { name: 'Publication', href: '#publication' },
   ];
 
   return (

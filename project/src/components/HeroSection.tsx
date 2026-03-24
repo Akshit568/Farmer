@@ -30,13 +30,13 @@ export const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-          <button className="group px-8 py-4 bg-white text-primary font-poppins font-semibold rounded-full shadow-2xl hover:shadow-accent/50 hover:scale-105 transition-all duration-300 ease-out flex items-center gap-2">
+          <a href="#demo" className="group px-8 py-4 bg-white text-primary font-poppins font-semibold rounded-full shadow-2xl hover:shadow-accent/50 hover:scale-105 transition-all duration-300 ease-out flex items-center gap-2">
             Explore Research
             <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
-          </button>
-          <button className="group px-8 py-4 bg-transparent border-2 border-white text-white font-poppins font-semibold rounded-full hover:bg-white hover:text-primary hover:scale-105 transition-all duration-300 ease-out shadow-lg">
+          </a>
+          <a href="/chat" className="group px-8 py-4 bg-transparent border-2 border-white text-white font-poppins font-semibold rounded-full hover:bg-white hover:text-primary hover:scale-105 transition-all duration-300 ease-out shadow-lg">
             View Demo
-          </button>
+          </a>
         </div>
 
         <div className="animate-bounce">

@@ -6,19 +6,7 @@ export const Footer = () => {
       <div className="absolute inset-0 opacity-5 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=')] bg-repeat"></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-          <div>
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <Sprout className="w-6 h-6 text-white" />
-              </div>
-              <span className="font-montserrat font-bold text-xl">AI Farm Advisor</span>
-            </div>
-            <p className="text-white/80 font-inter leading-relaxed">
-              Empowering farmers with intelligent agricultural advisory through cutting-edge AI and NLP technologies.
-            </p>
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12 max-w-3xl mx-auto">
           <div>
             <h3 className="font-montserrat font-bold text-lg mb-6 flex items-center gap-2">
               <GraduationCap className="w-5 h-5" />
@@ -31,7 +19,7 @@ export const Footer = () => {
               <div className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                 <p className="text-white/80 font-inter text-sm">
-                  Phagwara, Punjab, India
+                  Jalandhar, Punjab, India
                 </p>
               </div>
             </div>
